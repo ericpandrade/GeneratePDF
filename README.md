@@ -7,20 +7,22 @@
 <span style="font-family: 'Poppins', sans-serif;font-size:9pt">
 Realiação de um teste técnico que consiste em gerar um PDF a partir de um formulário. <br />
 Nesse projeto foi-se utilizado a biblioteca react-to-print para se gerar o PDF e a biblioteca react-hook-form para o tratamento dos formulários.
-<br />
-• Conteúdos técnicos utilizado no site.
 
 <br />
-• Hooks
-<br />
-• Propriedades (Props)
+
+## Conteúdos técnicos utilizado no site.
+
+<br />• Hooks
+<br />• Propriedades (Props)
 <br />• Context API
 <br />• Componentização
 <br />• Responsividade para todas as telas
 <br />• Statefull e Stateless
 <br />• Navegação com React-Router-Dom
-<br />• Ciclo de vida <br />
-• PersistedState (Hook para permanência do Local Storage)
+<br />• Ciclo de vida
+<br />• React-To-Print
+<br />• React-Hook-Form
+<br />• PersistedState (Hook para permanência do Local Storage)
 <br />• Clean Code
 </span>
 
@@ -31,7 +33,7 @@ Nesse projeto foi-se utilizado a biblioteca react-to-print para se gerar o PDF e
 
 <span style="font-family: 'Poppins', sans-serif;font-size:9pt">
 
-Você pode acompanhar o site pelo Link:
+Você pode acompanhar o site pelo Link: https://generatepdf.vercel.app/
 
 </span>
 
