@@ -1,0 +1,76 @@
+.mainContainer {
+  width: 100%;
+  padding: 2rem;
+}
+
+.apresentationContaier {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+
+  .title {
+    font: 600 1.35rem Poppins, sans-serif;
+    text-align: center;
+    margin: 0;
+  }
+
+  .victimSituation {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 1rem;
+
+    font: 500 1rem Poppins, sans-serif;
+
+    strong {
+      margin-left: 0.15rem;
+    }
+  }
+}
+
+.cardTitle {
+  font: 600 1.15rem Poppins, sans-serif;
+  text-align: center;
+  margin: 0;
+}
+
+.cardContainer {
+  margin-top: 1rem;
+}
+
+.row {
+  display: flex;
+  align-items: center;
+  flex-basis: stretch;
+
+  border: 1px solid #ccc;
+
+  .col {
+    padding: 1rem;
+    height: 100%;
+
+    border-left: 1px solid #ccc;
+
+    span {
+      font: 400 1rem Poppins, sans-serif;
+    }
+  }
+}
+
+.educationContainer {
+  display: grid;
+  grid-template-columns: auto auto auto;
+
+  .education {
+    border: 1px solid #ccc;
+    padding: 0.25rem;
+  }
+
+  .disabledOption {
+    height: 100%;
+    width: 100%;
+    background: #ccc;
+    border: 1px solid #ccc;
+  }
+}

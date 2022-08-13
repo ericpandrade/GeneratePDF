@@ -1,0 +1,48 @@
+.mainContainer {
+  height: 100vh;
+
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  min-width: 320px;
+
+  @media (max-width: 720px) {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .apresentationAside {
+    height: 100%;
+    display: flex;
+
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    padding: 4rem 1rem;
+
+    @media (max-width: 720px) {
+      width: 100%;
+    }
+
+    background: var(--primary-color);
+
+    img {
+      width: 250px;
+    }
+
+    h1 {
+      transform: rotate(-2deg);
+      color: var(--white);
+
+      text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.7);
+      text-align: center;
+
+      margin-top: 5rem;
+
+      font: 700 2.5rem Poppins, sans-serif;
+      font-style: oblique;
+    }
+  }
+}
